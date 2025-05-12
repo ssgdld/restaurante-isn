@@ -1,0 +1,40 @@
+#plato-semana {
+      background-color: #f9f9f9;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      border: 1px solid #cfa18d;
+      border-radius: 8px;
+      position: relative;
+    }
+
+    #plato-semana .multimedia {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    #plato-semana .multimedia img {
+      width: 48%;
+      border: 2px solid #cfa18d;
+      border-radius: 6px;
+      object-fit: cover;
+    }
+
+    .video-plato {
+      margin: 1rem 0;
+      text-align: center;
+    }
+
+    .video-plato video {
+      width: 80%;
+      max-width: 600px;
+      border: 2px solid #cfa18d;
+      border-radius: 6px;
+    }
+
+    #plato-semana audio {
+      display: block;
+      margin: 0 auto 1.5rem;
+      width: 60%;
+      max-width: 300px;
+    }
